@@ -1,0 +1,18 @@
+.home-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  mat-toolbar {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  mat-card {
+    margin: 10px;
+  }
+  
+  mat-card-actions a {
+    text-decoration: none;
+  }
+  

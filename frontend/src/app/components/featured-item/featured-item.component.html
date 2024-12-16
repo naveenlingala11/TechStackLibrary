@@ -1,0 +1,14 @@
+<div *ngIf="ebook">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ ebook.title }}</mat-card-title>
+        <mat-card-subtitle>{{ ebook.author }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="ebook.imageUrl" alt="{{ ebook.title }}" />
+      <mat-card-content>
+        <p>{{ ebook.description }}</p>
+        <p><strong>Price:</strong> {{ ebook.price | currency }}</p> <!-- Correct pipe usage -->
+      </mat-card-content>
+    </mat-card>
+  </div>
+  
